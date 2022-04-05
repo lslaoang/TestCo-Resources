@@ -1,0 +1,31 @@
+logging:
+  level:
+    org:
+      springframework: DEBUG
+
+server:
+  port: 8181
+#  error:
+#    path: /error
+#    whitelabel:
+#      enabled: false
+#
+#spring:
+#  autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration
+
+azure:
+  activedirectory:
+    client-id: bf752f05-bcc5-45cb-a110-59daaa1bf7da
+    client-secret: BIa7Q~CmnU_P86tuBaGDfYi2FC7tpLaaSP_0v
+    tenant-id: a42e43e2-c7b8-499c-89a6-4b9bac2d5a6e
+#    authorization-clients:
+#      graph:
+#        # Specifies the Microsoft Graph scopes that your app needs access to:
+#        scopes: https://graph.microsoft.com/User.Read
+#      testco-webapp:
+#        scopes:
+#          - api://testco-webapp/Consumer.read
+#          - openid
+#          - profile
+#          - offline_access
