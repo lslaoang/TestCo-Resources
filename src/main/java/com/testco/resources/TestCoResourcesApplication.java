@@ -9,5 +9,4 @@ public class TestCoResourcesApplication {
     public static void main(String[] args) {
         SpringApplication.run(TestCoResourcesApplication.class, args);
     }
-
 }
