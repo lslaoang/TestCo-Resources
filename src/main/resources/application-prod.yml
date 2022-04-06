@@ -1,0 +1,14 @@
+azure:
+  activedirectory:
+    client-id: bf752f05-bcc5-45cb-a110-59daaa1bf7da
+    client-secret: BIa7Q~CmnU_P86tuBaGDfYi2FC7tpLaaSP_0v
+    tenant-id: a42e43e2-c7b8-499c-89a6-4b9bac2d5a6e
+
+logging:
+  level:
+    org:
+      springframework:
+        security: TRACE
+    com:
+      azure:
+        spring: TRACE
