@@ -18,7 +18,7 @@ logging:
   level:
     org:
       springframework:
-        security: TRACE
+        security: DEBUG
     com:
       azure:
-        spring: TRACE
+        spring: DEBUG
