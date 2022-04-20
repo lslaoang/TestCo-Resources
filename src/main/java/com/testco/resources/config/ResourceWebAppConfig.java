@@ -14,10 +14,10 @@ public class ResourceWebAppConfig  extends AADResourceServerWebSecurityConfigure
     public void configure(HttpSecurity http) throws Exception {
         super.configure(http);
 
-        // @formatter:off
+//         @formatter:off
         http.authorizeRequests()
-                .mvcMatchers(HttpMethod.GET, "/resource").hasAuthority("SCOPE_Consumer.read")
+                .mvcMatchers(HttpMethod.GET, "/api/v1/resource").hasAuthority("SCOPE_Consumer.read")
                 .antMatchers("/**").denyAll();
-        // @formatter:on
+//         @formatter:on
     }
 }
