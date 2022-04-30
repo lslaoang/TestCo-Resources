@@ -1,5 +1,5 @@
 spring:
   profiles:
-    active: prod
+    active: local
 api:
   base-path: /api/v1

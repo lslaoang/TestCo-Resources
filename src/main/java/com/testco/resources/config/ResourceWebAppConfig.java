@@ -16,7 +16,7 @@ public class ResourceWebAppConfig  extends AADResourceServerWebSecurityConfigure
 
 //         @formatter:off
         http.authorizeRequests()
-                .mvcMatchers(HttpMethod.GET, "/api/v1/resource").hasAuthority("SCOPE_Consumer.read")
+                .mvcMatchers(HttpMethod.GET, "/api/v1/resource").hasAuthority("SCOPE_File.Upload")
                 .antMatchers("/**").denyAll();
 //         @formatter:on
     }
